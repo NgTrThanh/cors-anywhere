@@ -1,0 +1,8 @@
+[build]
+  command = "npm run start"
+
+[[redirects]]
+  from = "/corsproxy/*"
+  to = "/:splat"
+  status = 200
+  force = true
